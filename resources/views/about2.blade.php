@@ -8,5 +8,7 @@
 </head>
 <body>
     <h1><a href="welcome">go to welcoem</a></h1>
+    <h2>{{$nom}}</h2>
+    <h3>{{$prenom}}</h3>
 </body>
 </html>

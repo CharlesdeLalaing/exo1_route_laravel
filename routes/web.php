@@ -75,6 +75,13 @@ Route::get('/var/{hello}', function ($hello) {
 });
 
 
+//pt.5
+Route::get('/about2', function () {
+    $nom='charles';
+    $prenom='del';
+    return view('about2', compact('nom', 'prenom'));
+});
+
 
 //extra
 
